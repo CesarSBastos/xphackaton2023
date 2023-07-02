@@ -3,7 +3,7 @@
       "nome": "João da Silva",
       "cpf": "000.000.000-00",
       "conta": "123456789",
-      "saldo": 2500.0
+      "salario": 2500.0
     },
     "movimentacoes": [
       {
@@ -14,8 +14,14 @@
       },
       {
         "data": "2023-06-02",
-        "descricao": "Pagamento de conta",
-        "valor": -200.0,
+        "descricao": "Pagamento de conta de luz",
+        "valor": -150.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-03",
+        "descricao": "Pagamento de conta de agua",
+        "valor": -90.0,
         "tipo": "saida"
       },
       {
@@ -25,10 +31,22 @@
         "tipo": "saida"
       },
       {
+        "data": "2023-06-06",
+        "descricao": "Alimentação",
+        "valor": -30.0,
+        "tipo": "saida"
+      },
+      {
         "data": "2023-06-08",
-        "descricao": "Transferência recebida",
-        "valor": 500.0,
-        "tipo": "entrada"
+        "descricao": "Aluguel",
+        "valor": -1000.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-08",
+        "descricao": "Compra online",
+        "valor": -50.0,
+        "tipo": "saida"
       },
       {
         "data": "2023-06-10",
@@ -50,14 +68,20 @@
       },
       {
         "data": "2023-06-20",
-        "descricao": "Pagamento de conta",
+        "descricao": "Pagamento de conta de gás",
         "valor": -150.0,
         "tipo": "saida"
       },
       {
         "data": "2023-06-22",
-        "descricao": "Transferência enviada",
+        "descricao": "Compra online",
         "valor": -200.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-24",
+        "descricao": "Compra online",
+        "valor": -100.0,
         "tipo": "saida"
       },
       {
@@ -65,12 +89,6 @@
         "descricao": "Alimentação",
         "valor": -30.0,
         "tipo": "saida"
-      },
-      {
-        "data": "2023-06-28",
-        "descricao": "Depósito",
-        "valor": 800.0,
-        "tipo": "entrada"
       },
       {
         "data": "2023-06-30",
