@@ -63,7 +63,7 @@ try {
 
 function callOpenAi(gastosFixos,gastosDesejos,reservaEmergencial,salario) {
     var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Bearer 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");
+    myHeaders.append("Authorization", OPEN_AI_KEY);
     myHeaders.append("Content-Type", "application/json");
 
     var raw = JSON.stringify({
