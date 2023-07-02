@@ -1,0 +1,83 @@
+{
+    "cliente": {
+      "nome": "João da Silva",
+      "cpf": "000.000.000-00",
+      "conta": "123456789",
+      "saldo": 2500.0
+    },
+    "movimentacoes": [
+      {
+        "data": "2023-06-01",
+        "descricao": "Depósito",
+        "valor": 1000.0,
+        "tipo": "entrada"
+      },
+      {
+        "data": "2023-06-02",
+        "descricao": "Pagamento de conta",
+        "valor": -200.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-05",
+        "descricao": "Alimentação",
+        "valor": -50.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-08",
+        "descricao": "Transferência recebida",
+        "valor": 500.0,
+        "tipo": "entrada"
+      },
+      {
+        "data": "2023-06-10",
+        "descricao": "Serviços de streaming",
+        "valor": -45.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-15",
+        "descricao": "Alimentação",
+        "valor": -40.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-18",
+        "descricao": "Depósito",
+        "valor": 1500.0,
+        "tipo": "entrada"
+      },
+      {
+        "data": "2023-06-20",
+        "descricao": "Pagamento de conta",
+        "valor": -150.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-22",
+        "descricao": "Transferência enviada",
+        "valor": -200.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-25",
+        "descricao": "Alimentação",
+        "valor": -30.0,
+        "tipo": "saida"
+      },
+      {
+        "data": "2023-06-28",
+        "descricao": "Depósito",
+        "valor": 800.0,
+        "tipo": "entrada"
+      },
+      {
+        "data": "2023-06-30",
+        "descricao": "Serviços de streaming",
+        "valor": -10.90,
+        "tipo": "saida"
+      }
+    ]
+  }
+  
